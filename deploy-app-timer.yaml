@@ -20,13 +20,3 @@ spec:
         env:        
         - name: PROCESS_SECOND
           value: "45"
-      affinity:
-        podAntiAffinity:
-          requiredDuringSchedulingIgnoredDuringExecution:
-          - labelSelector:
-              matchExpressions:
-              - key: app
-                operator: In
-                values:
-                - timer-app
-            topologyKey: "kubernetes.io/hostname"

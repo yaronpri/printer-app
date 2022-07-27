@@ -1,3 +1,3 @@
-# event-hub-crawler-watcher
+# Printer App
 
-A python program which calculate current unprocessed event for given event hub for requested consumer group and print it to console
+A python program which send a log messages to STDOUT for specific interval time
